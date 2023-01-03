@@ -41,7 +41,7 @@ const App = () => {
       //if the movies array is greater than zero
         ? (
           <div className="container">
-  
+            {/* map over movies array and display each movie in the movies array in our moiveCard componet */}
             {movies.map((oneMovie) =>(
               <MovieCard movie={oneMovie} />
             ))}
@@ -53,7 +53,6 @@ const App = () => {
           </div>
         )
       }      
-
     </div>
   )
 
